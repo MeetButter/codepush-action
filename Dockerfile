@@ -1,12 +1,11 @@
 FROM node:14
 
 LABEL version="1.1.0"
-LABEL repository="https://github.com/NishanthShankar/codepush-action"
-LABEL homepage="https://github.com/NishanthShankar/codepush-action"
-LABEL maintainer="Nishanth Shankar <nishanthShankr@gmail.com>"
+LABEL repository="https://github.com/MeetButter/codepush-action"
+LABEL homepage="https://github.com/MeetButter/codepush-action"
 
-LABEL com.github.actions.name="GitHub Action for Codepush"
-LABEL com.github.actions.description="Wraps the appcenter CLI to enable common commands."
+LABEL com.github.actions.name="GitHub Action for Codepush with Node:14"
+LABEL com.github.actions.description="Github Actions for codepush from NishanthShankar/codepush-action but with node:14"
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="gray-dark"
 
